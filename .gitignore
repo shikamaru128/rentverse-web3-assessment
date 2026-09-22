@@ -1,0 +1,16 @@
+/node_modules
+package-lock.json
+/build
+/server/data/invoice/
+
+# Local environment and secret files
+.env
+.env.*
+!.env.example
+!*.env.example
+server/config/.config.env
+
+# Local logs and operating-system files
+*.log
+.DS_Store
+Thumbs.db
